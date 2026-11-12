@@ -1,0 +1,30 @@
+{
+  "attempted_controls": 55,
+  "by_repo": {
+    "fastapi": {
+      "collection_error": 6,
+      "empty_passed": 2,
+      "missing_dependency": 2,
+      "qualified": 15,
+      "reference_failed": 5,
+      "unresolved_control_failure": 9
+    },
+    "httpx": {
+      "qualified": 1
+    },
+    "requests": {
+      "qualified": 2,
+      "runtime_compatibility": 6,
+      "unresolved_control_failure": 5
+    },
+    "rich": {
+      "missing_dependency": 1,
+      "reference_failed": 7,
+      "runtime_compatibility": 1,
+      "unresolved_control_failure": 3
+    }
+  },
+  "newly_qualified": 18,
+  "original_excluded": 65,
+  "recorded_control_pairs": 55
+}

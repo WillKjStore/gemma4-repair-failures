@@ -1,0 +1,477 @@
+{
+  "replay": {
+    "budget_levels": {
+      "provisional_exact": {
+        "3": {
+          "all": {
+            "none": 2,
+            "source": 1
+          },
+          "any": {
+            "none": 2,
+            "source": 1
+          }
+        },
+        "5": {
+          "all": {
+            "none": 2,
+            "source": 1
+          },
+          "any": {
+            "none": 2,
+            "source": 1
+          }
+        },
+        "10": {
+          "all": {
+            "none": 1,
+            "source": 1,
+            "symbol": 1
+          },
+          "any": {
+            "none": 1,
+            "source": 1,
+            "symbol": 1
+          }
+        }
+      },
+      "reviewed_absent": {
+        "3": {
+          "all": {
+            "reviewed_absent": 1
+          },
+          "any": {
+            "reviewed_absent": 1
+          }
+        },
+        "5": {
+          "all": {
+            "reviewed_absent": 1
+          },
+          "any": {
+            "reviewed_absent": 1
+          }
+        },
+        "10": {
+          "all": {
+            "reviewed_absent": 1
+          },
+          "any": {
+            "reviewed_absent": 1
+          }
+        }
+      },
+      "reviewed_ambiguous": {
+        "3": {
+          "all": {
+            "reviewed_ambiguous": 1
+          },
+          "any": {
+            "reviewed_ambiguous": 1
+          }
+        },
+        "5": {
+          "all": {
+            "reviewed_ambiguous": 1
+          },
+          "any": {
+            "reviewed_ambiguous": 1
+          }
+        },
+        "10": {
+          "all": {
+            "reviewed_ambiguous": 1
+          },
+          "any": {
+            "reviewed_ambiguous": 1
+          }
+        }
+      },
+      "reviewed_confirmed": {
+        "3": {
+          "all": {
+            "none": 11,
+            "source": 2
+          },
+          "any": {
+            "none": 11,
+            "source": 2
+          }
+        },
+        "5": {
+          "all": {
+            "none": 11,
+            "source": 2
+          },
+          "any": {
+            "none": 11,
+            "source": 2
+          }
+        },
+        "10": {
+          "all": {
+            "none": 10,
+            "source": 3
+          },
+          "any": {
+            "none": 9,
+            "source": 4
+          }
+        }
+      },
+      "unreviewed_unknown": {
+        "3": {
+          "all": {
+            "unreviewed_unknown": 15
+          },
+          "any": {
+            "unreviewed_unknown": 15
+          }
+        },
+        "5": {
+          "all": {
+            "unreviewed_unknown": 15
+          },
+          "any": {
+            "unreviewed_unknown": 15
+          }
+        },
+        "10": {
+          "all": {
+            "unreviewed_unknown": 15
+          },
+          "any": {
+            "unreviewed_unknown": 15
+          }
+        }
+      }
+    },
+    "denominators": {
+      "provisional_exact": {
+        "complete_candidate_sets": 3,
+        "ranges": 4,
+        "reviewed_absent_ranges": 0,
+        "tasks": 3
+      },
+      "reviewed_absent": {
+        "ranges": 0,
+        "reviewed_absent_ranges": 0,
+        "tasks": 1
+      },
+      "reviewed_ambiguous": {
+        "ranges": 0,
+        "reviewed_absent_ranges": 0,
+        "tasks": 1
+      },
+      "reviewed_confirmed": {
+        "ranges": 23,
+        "reviewed_absent_ranges": 1,
+        "tasks": 13
+      },
+      "unreviewed_unknown": {
+        "ranges": 0,
+        "reviewed_absent_ranges": 0,
+        "tasks": 15
+      }
+    },
+    "method": "Highest reply evidence per range. Any is the maximum and all the minimum. The reviewed-absent range in the mixed slot is a graph-coverage miss and contributes none to all-target replay. The reply schemas have no explicit file-and-range field. Provisional all applies only to available exact candidate ranges.",
+    "policy_sha256": "50e0f5a52eba5991336d6b489ff405b2fb61f9dc8f331bdd1d9f6971284d39db",
+    "replays": 33,
+    "saved_calls": 296
+  },
+  "review": {
+    "absent_slot": 15,
+    "agree": 15,
+    "ambiguous_slot": 10,
+    "asset_missing": 0,
+    "compared_slots": 15,
+    "confirmed": 13,
+    "disagree": 0,
+    "mixed_slot": {
+      "confirmed_graph_ranges": 4,
+      "reviewed_absent_ranges": 1,
+      "slot": 3
+    },
+    "reviewed_slots": 15,
+    "reviewer_initials_field_exception_slots": [
+      7
+    ],
+    "scope": "Enriched independent mapper review sample.",
+    "uncertain": 0
+  },
+  "stage": {
+    "groups": {
+      "12b/graph_on/larger/reviewed_absent": {
+        "slots": 1
+      },
+      "12b/graph_on/larger/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "12b/graph_on/larger/reviewed_confirmed": {
+        "slots": 13
+      },
+      "31b/graph_on/larger/reviewed_absent": {
+        "slots": 1
+      },
+      "31b/graph_on/larger/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "31b/graph_on/larger/reviewed_confirmed": {
+        "slots": 13
+      },
+      "31b/graph_on/larger_accelerator_retry/reviewed_absent": {
+        "slots": 1
+      },
+      "31b/graph_on/larger_accelerator_retry/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 1,
+        "edit_place:unknown": 2,
+        "file_shown_source:yes": 3,
+        "graph_shown_source:unknown": 3,
+        "observed_target_edit:edited": 1,
+        "observed_target_edit:unknown": 2,
+        "saved_traces": 3,
+        "slots": 3,
+        "target_edited:unknown": 2,
+        "target_edited:yes": 1,
+        "target_seen:yes": 3
+      },
+      "31b/graph_on/larger_retry/reviewed_absent": {
+        "slots": 1
+      },
+      "31b/graph_on/larger_retry/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "31b/graph_on/larger_retry/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 3,
+        "edit_place:outside_reviewed_ranges": 5,
+        "edit_place:unknown": 4,
+        "file_shown_source:unknown": 4,
+        "file_shown_source:yes": 8,
+        "graph_shown_source:unknown": 12,
+        "observed_target_edit:edited": 3,
+        "observed_target_edit:unedited": 3,
+        "observed_target_edit:unknown": 2,
+        "saved_traces": 10,
+        "slots": 13,
+        "target_edited:no": 5,
+        "target_edited:unknown": 4,
+        "target_edited:yes": 3,
+        "target_seen:unknown": 4,
+        "target_seen:yes": 8
+      },
+      "31b/graph_on/smoke_retry/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 1,
+        "file_shown_source:yes": 1,
+        "graph_shown_source:unknown": 1,
+        "observed_target_edit:edited": 1,
+        "saved_traces": 1,
+        "slots": 1,
+        "target_edited:yes": 1,
+        "target_seen:yes": 1
+      },
+      "e2b/graph_on/context/reviewed_absent": {
+        "slots": 1
+      },
+      "e2b/graph_on/context/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "e2b/graph_on/context/reviewed_confirmed": {
+        "edit_place:outside_reviewed_ranges": 5,
+        "file_shown_source:unknown": 5,
+        "graph_shown_source:unknown": 5,
+        "saved_traces": 5,
+        "slots": 5,
+        "target_edited:no": 5,
+        "target_seen:unknown": 5
+      },
+      "e2b/graph_on/primary/reviewed_absent": {
+        "slots": 1
+      },
+      "e2b/graph_on/primary/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "e2b/graph_on/primary/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 4,
+        "edit_place:no_submitted_edit": 1,
+        "edit_place:outside_reviewed_ranges": 3,
+        "edit_place:unknown": 5,
+        "file_shown_source:unknown": 8,
+        "file_shown_source:yes": 5,
+        "graph_shown_source:unknown": 13,
+        "observed_target_edit:edited": 4,
+        "observed_target_edit:unedited": 1,
+        "saved_traces": 13,
+        "slots": 13,
+        "target_edited:no": 4,
+        "target_edited:unknown": 5,
+        "target_edited:yes": 4,
+        "target_seen:unknown": 8,
+        "target_seen:yes": 5
+      },
+      "e2b/graph_on/repeat/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 1,
+        "edit_place:outside_reviewed_ranges": 2,
+        "edit_place:unknown": 2,
+        "file_shown_source:unknown": 3,
+        "file_shown_source:yes": 2,
+        "graph_shown_source:unknown": 5,
+        "observed_target_edit:edited": 1,
+        "observed_target_edit:unedited": 1,
+        "saved_traces": 5,
+        "slots": 5,
+        "target_edited:no": 2,
+        "target_edited:unknown": 2,
+        "target_edited:yes": 1,
+        "target_seen:unknown": 3,
+        "target_seen:yes": 2
+      },
+      "e2b/graph_on/seed/reviewed_absent": {
+        "slots": 1
+      },
+      "e2b/graph_on/seed/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "e2b/graph_on/seed/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 6,
+        "edit_place:outside_reviewed_ranges": 1,
+        "edit_place:unknown": 6,
+        "file_shown_source:unknown": 7,
+        "file_shown_source:yes": 6,
+        "graph_shown_source:unknown": 11,
+        "graph_shown_source:yes": 2,
+        "observed_target_edit:edited": 6,
+        "observed_target_edit:unknown": 1,
+        "saved_traces": 13,
+        "slots": 13,
+        "target_edited:no": 1,
+        "target_edited:unknown": 6,
+        "target_edited:yes": 6,
+        "target_seen:unknown": 6,
+        "target_seen:yes": 7
+      },
+      "e4b/graph_off/context/reviewed_confirmed": {
+        "edit_place:no_submitted_edit": 2,
+        "file_shown_source:unknown": 2,
+        "graph_shown_source:unknown": 2,
+        "saved_traces": 2,
+        "slots": 2,
+        "target_edited:no": 2,
+        "target_seen:unknown": 2
+      },
+      "e4b/graph_off/primary/reviewed_absent": {
+        "slots": 1
+      },
+      "e4b/graph_off/primary/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "e4b/graph_off/primary/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 3,
+        "edit_place:outside_reviewed_ranges": 7,
+        "edit_place:unknown": 3,
+        "file_shown_source:unknown": 8,
+        "file_shown_source:yes": 5,
+        "graph_shown_source:unknown": 13,
+        "observed_target_edit:edited": 3,
+        "observed_target_edit:unedited": 1,
+        "observed_target_edit:unknown": 1,
+        "saved_traces": 13,
+        "slots": 13,
+        "target_edited:no": 7,
+        "target_edited:unknown": 3,
+        "target_edited:yes": 3,
+        "target_seen:unknown": 8,
+        "target_seen:yes": 5
+      },
+      "e4b/graph_on/context/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 2,
+        "edit_place:outside_reviewed_ranges": 1,
+        "edit_place:unknown": 1,
+        "file_shown_source:unknown": 1,
+        "file_shown_source:yes": 3,
+        "graph_shown_source:unknown": 4,
+        "observed_target_edit:edited": 2,
+        "observed_target_edit:unknown": 1,
+        "saved_traces": 4,
+        "slots": 4,
+        "target_edited:no": 1,
+        "target_edited:unknown": 1,
+        "target_edited:yes": 2,
+        "target_seen:unknown": 1,
+        "target_seen:yes": 3
+      },
+      "e4b/graph_on/primary/reviewed_absent": {
+        "slots": 1
+      },
+      "e4b/graph_on/primary/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "e4b/graph_on/primary/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 6,
+        "edit_place:outside_reviewed_ranges": 4,
+        "edit_place:unknown": 3,
+        "file_shown_source:unknown": 6,
+        "file_shown_source:yes": 7,
+        "graph_shown_source:unknown": 13,
+        "observed_target_edit:edited": 6,
+        "observed_target_edit:unknown": 1,
+        "saved_traces": 13,
+        "slots": 13,
+        "target_edited:no": 4,
+        "target_edited:unknown": 3,
+        "target_edited:yes": 6,
+        "target_seen:unknown": 6,
+        "target_seen:yes": 7
+      },
+      "e4b/graph_on/repeat/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 4,
+        "edit_place:outside_reviewed_ranges": 1,
+        "edit_place:unknown": 3,
+        "file_shown_source:unknown": 5,
+        "file_shown_source:yes": 3,
+        "graph_shown_source:unknown": 8,
+        "observed_target_edit:edited": 3,
+        "saved_traces": 8,
+        "slots": 8,
+        "target_edited:no": 1,
+        "target_edited:unknown": 3,
+        "target_edited:yes": 4,
+        "target_seen:unknown": 5,
+        "target_seen:yes": 3
+      },
+      "e4b/graph_on/seed/reviewed_absent": {
+        "slots": 1
+      },
+      "e4b/graph_on/seed/reviewed_ambiguous": {
+        "slots": 1
+      },
+      "e4b/graph_on/seed/reviewed_confirmed": {
+        "edit_place:exact_reviewed_range": 4,
+        "edit_place:no_submitted_edit": 1,
+        "edit_place:outside_reviewed_ranges": 4,
+        "edit_place:unknown": 4,
+        "file_shown_source:unknown": 8,
+        "file_shown_source:yes": 5,
+        "graph_shown_source:unknown": 13,
+        "observed_target_edit:edited": 4,
+        "observed_target_edit:unknown": 1,
+        "saved_traces": 13,
+        "slots": 13,
+        "target_edited:no": 5,
+        "target_edited:unknown": 4,
+        "target_edited:yes": 4,
+        "target_seen:unknown": 8,
+        "target_seen:yes": 5
+      }
+    },
+    "method": "Exact source overlap per reviewed range. File evidence uses read_file replies. Unobserved source and insertion-only overlaps remain unknown.",
+    "rows_by_label_source": {
+      "provisional_exact": 51,
+      "reviewed_absent": 10,
+      "reviewed_ambiguous": 9,
+      "reviewed_confirmed": 132,
+      "unknown": 250
+    },
+    "run_rows": 452,
+    "updated_review_sample_rows": 151
+  }
+}

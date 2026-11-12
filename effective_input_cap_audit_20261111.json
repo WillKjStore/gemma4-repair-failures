@@ -1,0 +1,230 @@
+{
+  "both_12b_and_31b_context": {
+    "12b": {
+      "attempts": 10,
+      "median_next_call_product": 14992,
+      "median_of_run_completion_medians": 69.5,
+      "next_call_from_last_crossings": 7,
+      "next_call_product_crossings": 4,
+      "observed_interval_product_crossings": 4,
+      "peak_prompt_above_16384": 0,
+      "peak_prompt_equal_16384": 1,
+      "with_adjacent_calls": 10,
+      "with_completion_metrics": 10,
+      "with_peak_prompt": 10
+    },
+    "31b": {
+      "attempts": 10,
+      "median_next_call_product": 12509,
+      "median_of_run_completion_medians": 69,
+      "next_call_from_last_crossings": 6,
+      "next_call_product_crossings": 0,
+      "observed_interval_product_crossings": 0,
+      "peak_prompt_above_16384": 0,
+      "peak_prompt_equal_16384": 0,
+      "with_adjacent_calls": 10,
+      "with_completion_metrics": 10,
+      "with_peak_prompt": 10
+    }
+  },
+  "larger_context_arm": {
+    "context_limit_before_patch": 1,
+    "incomplete_verification": 6,
+    "test_failure": 31
+  },
+  "primary": {
+    "12b": {
+      "all": {
+        "attempts": 42,
+        "median_next_call_product": 14395.75,
+        "median_of_run_completion_medians": 105.5,
+        "next_call_from_last_crossings": 24,
+        "next_call_product_crossings": 15,
+        "observed_interval_product_crossings": 12,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 1,
+        "with_adjacent_calls": 38,
+        "with_completion_metrics": 38,
+        "with_peak_prompt": 38
+      },
+      "context_limit": {
+        "attempts": 26,
+        "median_next_call_product": 16633.75,
+        "median_of_run_completion_medians": 78.75,
+        "next_call_from_last_crossings": 20,
+        "next_call_product_crossings": 13,
+        "observed_interval_product_crossings": 11,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 1,
+        "with_adjacent_calls": 26,
+        "with_completion_metrics": 26,
+        "with_peak_prompt": 26
+      },
+      "other_outcome": {
+        "attempts": 16,
+        "median_next_call_product": 12956.75,
+        "median_of_run_completion_medians": 182,
+        "next_call_from_last_crossings": 4,
+        "next_call_product_crossings": 2,
+        "observed_interval_product_crossings": 1,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 12,
+        "with_completion_metrics": 12,
+        "with_peak_prompt": 12
+      }
+    },
+    "31b": {
+      "all": {
+        "attempts": 42,
+        "median_next_call_product": 12523,
+        "median_of_run_completion_medians": 94.75,
+        "next_call_from_last_crossings": 25,
+        "next_call_product_crossings": 6,
+        "observed_interval_product_crossings": 5,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 42,
+        "with_completion_metrics": 42,
+        "with_peak_prompt": 42
+      },
+      "context_limit": {
+        "attempts": 11,
+        "median_next_call_product": 13856,
+        "median_of_run_completion_medians": 67,
+        "next_call_from_last_crossings": 7,
+        "next_call_product_crossings": 1,
+        "observed_interval_product_crossings": 1,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 11,
+        "with_completion_metrics": 11,
+        "with_peak_prompt": 11
+      },
+      "other_outcome": {
+        "attempts": 31,
+        "median_next_call_product": 12513,
+        "median_of_run_completion_medians": 102,
+        "next_call_from_last_crossings": 18,
+        "next_call_product_crossings": 5,
+        "observed_interval_product_crossings": 4,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 31,
+        "with_completion_metrics": 31,
+        "with_peak_prompt": 31
+      }
+    },
+    "e2b": {
+      "all": {
+        "attempts": 42,
+        "median_next_call_product": 14895,
+        "median_of_run_completion_medians": 337.5,
+        "next_call_from_last_crossings": 21,
+        "next_call_product_crossings": 15,
+        "observed_interval_product_crossings": 8,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 42,
+        "with_completion_metrics": 42,
+        "with_peak_prompt": 42
+      },
+      "context_limit": {
+        "attempts": 19,
+        "median_next_call_product": 16073.5,
+        "median_of_run_completion_medians": 373.5,
+        "next_call_from_last_crossings": 12,
+        "next_call_product_crossings": 9,
+        "observed_interval_product_crossings": 4,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 19,
+        "with_completion_metrics": 19,
+        "with_peak_prompt": 19
+      },
+      "other_outcome": {
+        "attempts": 23,
+        "median_next_call_product": 13886,
+        "median_of_run_completion_medians": 275,
+        "next_call_from_last_crossings": 9,
+        "next_call_product_crossings": 6,
+        "observed_interval_product_crossings": 4,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 23,
+        "with_completion_metrics": 23,
+        "with_peak_prompt": 23
+      }
+    },
+    "e4b": {
+      "all": {
+        "attempts": 42,
+        "median_next_call_product": 14594.5,
+        "median_of_run_completion_medians": 248.75,
+        "next_call_from_last_crossings": 15,
+        "next_call_product_crossings": 13,
+        "observed_interval_product_crossings": 7,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 42,
+        "with_completion_metrics": 42,
+        "with_peak_prompt": 42
+      },
+      "context_limit": {
+        "attempts": 9,
+        "median_next_call_product": 17606,
+        "median_of_run_completion_medians": 260.5,
+        "next_call_from_last_crossings": 8,
+        "next_call_product_crossings": 8,
+        "observed_interval_product_crossings": 4,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 9,
+        "with_completion_metrics": 9,
+        "with_peak_prompt": 9
+      },
+      "other_outcome": {
+        "attempts": 33,
+        "median_next_call_product": 12862,
+        "median_of_run_completion_medians": 247.5,
+        "next_call_from_last_crossings": 7,
+        "next_call_product_crossings": 5,
+        "observed_interval_product_crossings": 3,
+        "peak_prompt_above_16384": 0,
+        "peak_prompt_equal_16384": 0,
+        "with_adjacent_calls": 33,
+        "with_completion_metrics": 33,
+        "with_peak_prompt": 33
+      }
+    }
+  },
+  "projection_method": "For each run with adjacent prompt measurements, take its own median adjacent growth. Multiply by recorded call count and add its starting prompt to project one further call. This is a descriptive extrapolation. It uses completed call counts, excludes the rejected prompt, and cannot identify causality.",
+  "rejections": {
+    "by_model": {
+      "12b": {
+        "32768/16384/16385": 26
+      },
+      "31b": {
+        "32768/16384/16385": 35
+      },
+      "e2b": {
+        "32768/16384/16385": 72,
+        "65536/16384/49153": 1
+      },
+      "e4b": {
+        "32768/16384/16385": 67
+      }
+    },
+    "by_scope": {
+      "followup": {
+        "32768/16384/16385": 99
+      },
+      "original_freeze": {
+        "32768/16384/16385": 101,
+        "65536/16384/49153": 1
+      }
+    },
+    "checked": 201,
+    "key": "context window / reserved output / reported minimum input at rejection"
+  }
+}

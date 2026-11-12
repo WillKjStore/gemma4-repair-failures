@@ -1,0 +1,61 @@
+{
+  "allocated_gpu_seconds": 1031,
+  "config_sha256": "687768d4fde56bb5d26ecbe3680e9031181a86dbaa17c823f54096cfabceed93",
+  "frozen_utc": "2026-11-11T09:23:47.208935+00:00",
+  "groups": {
+    "all": {
+      "complete_model_responses": 42,
+      "keyword_correct": 0,
+      "model_correct": 9,
+      "tasks": 42
+    },
+    "file_or_function_named": {
+      "complete_model_responses": 9,
+      "keyword_correct": 0,
+      "model_correct": 3,
+      "tasks": 9
+    },
+    "neither_named": {
+      "complete_model_responses": 33,
+      "keyword_correct": 0,
+      "model_correct": 6,
+      "tasks": 33
+    }
+  },
+  "jobs": {
+    "12784679": [
+      "COMPLETED",
+      268,
+      "0:0"
+    ],
+    "12784680": [
+      "COMPLETED",
+      468,
+      "0:0"
+    ],
+    "12784681": [
+      "COMPLETED",
+      295,
+      "0:0"
+    ]
+  },
+  "method": {
+    "generation": {
+      "chat_template_kwargs": {
+        "enable_thinking": true
+      },
+      "max_tokens": 16384,
+      "model": "gemma-4-e4b-it-qat-w4a16-ct",
+      "seed": 20261109,
+      "temperature": 0.2,
+      "thinking_token_budget": 4096,
+      "top_p": 0.95
+    },
+    "input": "issue text and a fixed one-file instruction",
+    "keyword_baseline": "First named Python path, else first named function with .py, else abstain.",
+    "model": "gemma-4-e4b-it-qat-w4a16-ct",
+    "scoring": "First Python-looking path must exactly match a changed reference-patch path.",
+    "strata": "Regex detects an explicit Python path or function or method mention.",
+    "tools": []
+  }
+}

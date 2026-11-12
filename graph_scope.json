@@ -1,0 +1,66 @@
+{
+  "base_graphs": 41,
+  "by_repo": {
+    "fastapi": {
+      "tasks": 16,
+      "tasks_unknown_for_module_assignment_targets": 0,
+      "tasks_unknown_for_module_targets": 0,
+      "tasks_with_assignment_removed_lines_in_module_node_text": 0,
+      "tasks_with_assignment_targets_in_files_with_module_node": 0,
+      "tasks_with_assignment_targets_with_named_graph_node": 0,
+      "tasks_with_module_assignment_targets": 0,
+      "tasks_with_module_assignment_targets_insertion_only": 0,
+      "tasks_with_module_assignment_targets_removed": 0,
+      "tasks_with_module_targets": 0,
+      "tasks_with_module_targets_insertion_only": 0,
+      "tasks_with_module_targets_removed": 0,
+      "tasks_with_unresolved_base_paths": 0
+    },
+    "rich": {
+      "tasks": 26,
+      "tasks_unknown_for_module_assignment_targets": 0,
+      "tasks_unknown_for_module_targets": 0,
+      "tasks_with_assignment_removed_lines_in_module_node_text": 0,
+      "tasks_with_assignment_targets_in_files_with_module_node": 0,
+      "tasks_with_assignment_targets_with_named_graph_node": 0,
+      "tasks_with_module_assignment_targets": 4,
+      "tasks_with_module_assignment_targets_insertion_only": 2,
+      "tasks_with_module_assignment_targets_removed": 2,
+      "tasks_with_module_targets": 6,
+      "tasks_with_module_targets_insertion_only": 3,
+      "tasks_with_module_targets_removed": 3,
+      "tasks_with_unresolved_base_paths": 0
+    }
+  },
+  "graph_node_text_shapes": {
+    "ClassDef": 18952,
+    "FunctionDef": 95415
+  },
+  "matched_tasks": 42,
+  "method": "Non-import, non-docstring Python statement edits at module scope, using removed base lines and insertion boundaries strictly inside existing statements. New files and new module statements with no base range are excluded. A named assignment node uses the exact module-qualified binding ID.",
+  "target_sites": {
+    "addition_only_paths_without_base_ranges": 6,
+    "assignment_targets_in_files_with_module_node": 0,
+    "assignment_targets_with_named_graph_node": 0,
+    "module_assignment_targets_insertion_before": 5,
+    "module_assignment_targets_removed": 10,
+    "module_targets_insertion_before": 6,
+    "module_targets_removed": 11,
+    "unresolved_base_paths": 0
+  },
+  "totals": {
+    "tasks": 42,
+    "tasks_unknown_for_module_assignment_targets": 0,
+    "tasks_unknown_for_module_targets": 0,
+    "tasks_with_assignment_removed_lines_in_module_node_text": 0,
+    "tasks_with_assignment_targets_in_files_with_module_node": 0,
+    "tasks_with_assignment_targets_with_named_graph_node": 0,
+    "tasks_with_module_assignment_targets": 4,
+    "tasks_with_module_assignment_targets_insertion_only": 2,
+    "tasks_with_module_assignment_targets_removed": 2,
+    "tasks_with_module_targets": 6,
+    "tasks_with_module_targets_insertion_only": 3,
+    "tasks_with_module_targets_removed": 3,
+    "tasks_with_unresolved_base_paths": 0
+  }
+}

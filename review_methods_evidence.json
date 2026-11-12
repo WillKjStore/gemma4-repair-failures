@@ -1,0 +1,72 @@
+{
+  "baseline": {
+    "context_tokens": 32768,
+    "max_output_tokens": 16384,
+    "minutes": 30,
+    "seed": 20261109,
+    "temperature": 0.2,
+    "tool_calls": 50,
+    "top_p": 0.95,
+    "turns": 150
+  },
+  "checkpoint_and_config_digests": {
+    "agent_config_sha256": {
+      "agent.yaml": "3f66ad04cd9daab96a388c0712b9f3163abe7ca3ce72947cd0580e2d2512287b",
+      "agent_e2b.yaml": "263deef41ca7c37e4d19879e6fe4599b0fc307d9b9626fb09e8c9ff082f7ce3c"
+    },
+    "checkpoints": {
+      "gemma-4-e2b-it-qat-w4a16-ct": {
+        "checkpoint_manifest_sha256": "4cda1413456cf9b40b9d44d9037d731e5ff875b2c1faf8f7002dda0a1534492f",
+        "files": 9,
+        "jobs_with_identical_manifest": 12
+      },
+      "gemma-4-e4b-it-qat-w4a16-ct": {
+        "checkpoint_manifest_sha256": "1812212203970293dd69bae6617864166014dd4fe6f239d2ca72d48324167f47",
+        "files": 9,
+        "jobs_with_identical_manifest": 22
+      }
+    },
+    "context_tokens": 32768,
+    "max_output_tokens": 16384,
+    "query_policy_sha256": "50e0f5a52eba5991336d6b489ff405b2fb61f9dc8f331bdd1d9f6971284d39db",
+    "sampling_seed": 20261109,
+    "splits_sha256": {
+      "e4_split_expansion_a.json": "64c2df7ba9e9a0e3146a5ebc0c0c356285312c267ff0ba3095720fd27f9d8a12",
+      "e4_split_expansion_b.json": "f3c45ed0eab092f21667df6223d37a55fb675f26715af67e34a33d331b553509",
+      "e4_split_expansion_c.json": "617824644c9f433f95c92ebcefb926292c71f455e95d840f1844293cb0ba3582",
+      "e4_split_expansion_d.json": "4762057a0393b35b67773b60e72790187e799166d70eecb0673114a001be8949",
+      "e4_split_expansion_e.json": "8b51731e20e9733356bf0fad8fd0b8da555c572cf6dc8803335c2b8f1a48971e",
+      "e4_split_expansion_f.json": "6a97aa5e4ec4298be2f3e4a2e2a5930452651b07d53e7deb98c2b9942d91a816",
+      "e4_split_v1.json": "f85eeecce3d045860f1ccc41026722efd25a84469b71024252ff7e3db6387db6",
+      "e4_split_warm_repeats.json": "20491c88826aa9c7fb020e8371a30143965183354ca57c86ecfea6dfd1b7aa56"
+    },
+    "warm_runner_sha256": {
+      "e4_e2b_warm_runner.py": "dcc26332fd9e777e8c6f7239e23dc7b5b620539fdfdb5b44b43a3da6a827ce87",
+      "e4_warm_runner.py": "69a42869901284a0e5f1445771ed4d963c8798068dc49d13a013dda5aa020d78"
+    }
+  },
+  "intervals": {
+    "edit_audit": "Descriptive 95% Wilson",
+    "tool_use": "95% paired task bootstrap"
+  },
+  "larger_context_tokens": 65536,
+  "local_environment": {
+    "apptainer": "1.3.6",
+    "backend": "subprocess",
+    "python": "3.12.16"
+  },
+  "repeat_seeds": {
+    "31b": [
+      20261112
+    ],
+    "e2b": [
+      20261112,
+      20261113
+    ],
+    "e4b": [
+      20261112,
+      20261113
+    ]
+  },
+  "source_note": "Settings were checked in the baseline YAML and cold/warm runner sources. The environment version was recorded in the pinned Quartz writer notes."
+}

@@ -1,0 +1,117 @@
+{
+  "human_check": {
+    "changed_tests_or_verifier_config_or_ci": 0,
+    "date": "2026-11-11",
+    "initials": "IKJ",
+    "single_python_source_file": 5,
+    "verified_primary_e4b_patches_inspected": 5
+  },
+  "human_evidence_source": "Reviewer attestation in the study conversation on 2026-11-11.",
+  "incomplete_verification_count": 9,
+  "ordinary_test_path_classification": {
+    "classification": "error",
+    "error_type": "FileReadError",
+    "scope": "ordinary repository test path"
+  },
+  "original_32_task_g0_diagnostic": {
+    "control_equivalence": {
+      "empty": {
+        "failures": 3,
+        "identities_and_outcomes_equal": true,
+        "tests": 174
+      },
+      "reference": {
+        "failures": 0,
+        "identities_and_outcomes_equal": true,
+        "tests": 174
+      }
+    },
+    "gate_report": {
+      "checks": {
+        "agent_attempt_with_trace": true,
+        "agent_patch_saved": true,
+        "agent_verification_executed": true,
+        "e4b_inference": true,
+        "empty_failed_required_test": true,
+        "graph_tools_disabled": true,
+        "metrics_recorded": true,
+        "reference_passed": true,
+        "workspace_boundary": true
+      },
+      "gate_a_passed": true,
+      "outcomes": {
+        "agent": "test_failure",
+        "empty": "test_failure",
+        "reference": "pass"
+      }
+    },
+    "job_id": "12776694",
+    "settings_integrity": "match"
+  },
+  "overnight_attempts": 82,
+  "overnight_leakage": {
+    "g0_diagnostic": {
+      "coverage": {
+        "agent_manifests_checked": 1,
+        "all_tool_calls": 10,
+        "direct_observation_steps": 10,
+        "manifests_with_nonempty_hints_text": 0,
+        "manifests_with_protected_fields": 0,
+        "manifests_with_unexpected_fields": 0,
+        "read_file_calls": 7,
+        "read_tools_without_argument_field": 0,
+        "run_command_calls": 1,
+        "traces_scanned": 1,
+        "traces_with_full_reference_patch_in_observation": 0,
+        "traces_with_full_verifier_test_patch_in_observation": 0
+      },
+      "tool_hits": {}
+    },
+    "overnight": {
+      "coverage": {
+        "agent_manifests_checked": 82,
+        "all_tool_calls": 624,
+        "direct_observation_steps": 624,
+        "manifests_with_nonempty_hints_text": 0,
+        "manifests_with_protected_fields": 0,
+        "manifests_with_unexpected_fields": 0,
+        "read_file_calls": 322,
+        "read_tools_without_argument_field": 0,
+        "run_command_calls": 84,
+        "traces_scanned": 82,
+        "traces_with_full_reference_patch_in_observation": 0,
+        "traces_with_full_verifier_test_patch_in_observation": 0
+      },
+      "tool_hits": {
+        "repository_test_path:read_file:error": 2,
+        "repository_test_path:read_file:success": 6,
+        "repository_test_path:run_command:error": 16,
+        "repository_test_path:run_command:success": 8
+      }
+    },
+    "pre_overnight": {
+      "coverage": {
+        "agent_manifests_checked": 64,
+        "all_tool_calls": 518,
+        "direct_observation_steps": 518,
+        "manifests_with_nonempty_hints_text": 0,
+        "manifests_with_protected_fields": 0,
+        "manifests_with_unexpected_fields": 0,
+        "read_file_calls": 268,
+        "read_tools_without_argument_field": 0,
+        "run_command_calls": 74,
+        "traces_scanned": 64,
+        "traces_with_full_reference_patch_in_observation": 0,
+        "traces_with_full_verifier_test_patch_in_observation": 0
+      },
+      "tool_hits": {
+        "repository_test_path:read_file:error": 1,
+        "repository_test_path:run_command:error": 9,
+        "repository_test_path:run_command:success": 6
+      }
+    }
+  },
+  "verifier_exit_codes": {
+    "2": 9
+  }
+}

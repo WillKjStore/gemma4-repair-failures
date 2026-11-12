@@ -1,0 +1,22 @@
+name: repair_agent
+model: gemma-4-e4b-it-qat-w4a16-ct
+instruction: |
+  Resolve the reported software issue in the repository. Inspect the relevant code and tests, use the available graph and workspace tools when useful, and make a focused source change. Run a targeted check when feasible. Finish by calling submit_patch.
+tools:
+  - run_command
+  - read_file
+  - edit_file
+  - write_file
+  - submit_patch
+  - get_status
+  - get_code_neighbors
+  - search_similar_code
+  - get_code_subgraph
+generate_content_config:
+  temperature: 0.2
+  top_p: 0.95
+  seed: 20261109
+  max_output_tokens: 16384
+  thinking_config:
+    include_thoughts: true
+    thinking_budget: 4096

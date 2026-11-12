@@ -1,0 +1,195 @@
+{
+  "frozen_trace_audit": {
+    "31b/graph_on": {
+      "exact_chains": 0,
+      "graph_calls": 1,
+      "runs_with_graph_calls": 1,
+      "saved_traces": 45,
+      "unknown_chains": 0
+    },
+    "e2b/graph_on": {
+      "exact_chains": 0,
+      "graph_calls": 100,
+      "runs_with_graph_calls": 70,
+      "saved_traces": 136,
+      "unknown_chains": 0
+    },
+    "e4b/graph_off": {
+      "exact_chains": 0,
+      "graph_calls": 0,
+      "runs_with_graph_calls": 0,
+      "saved_traces": 39,
+      "unknown_chains": 0
+    },
+    "e4b/graph_on": {
+      "exact_chains": 0,
+      "graph_calls": 59,
+      "runs_with_graph_calls": 36,
+      "saved_traces": 135,
+      "unknown_chains": 0
+    }
+  },
+  "matched_primary": {
+    "attempts_using_graph_tools": {
+      "e2b": 21,
+      "e4b": 9
+    },
+    "calls_by_tool": {
+      "e2b": {
+        "get_code_neighbors": 2,
+        "search_similar_code": 29
+      },
+      "e4b": {
+        "get_code_neighbors": 5,
+        "search_similar_code": 12
+      }
+    },
+    "paired": {
+      "bootstrap95": [
+        -0.4523809523809524,
+        -0.11904761904761904
+      ],
+      "difference": -0.2857142857142857,
+      "e2b_only": 15,
+      "e4b_only": 3,
+      "matched": 42,
+      "n": 42,
+      "unknown": 0
+    },
+    "paired_by_mode": {
+      "cold": {
+        "bootstrap95": [
+          -0.4166666666666667,
+          0.4166666666666667
+        ],
+        "difference": 0,
+        "e2b_only": 3,
+        "e4b_only": 3,
+        "matched": 12,
+        "n": 12,
+        "unknown": 0
+      },
+      "warm": {
+        "bootstrap95": [
+          -0.5666666666666667,
+          -0.23333333333333334
+        ],
+        "difference": -0.4,
+        "e2b_only": 12,
+        "e4b_only": 0,
+        "matched": 30,
+        "n": 30,
+        "unknown": 0
+      }
+    },
+    "scope": "Recorded graph tool calls in the 42 matched graph-enabled primary attempts per model"
+  },
+  "original_31b_tool_type": {
+    "all_saved": {
+      "chain_status": {
+        "no_exact_chain": 45
+      },
+      "graph_calls": 1,
+      "runs": 45,
+      "runs_using_graph": 1
+    },
+    "canonical_production": {
+      "chain_status": {
+        "no_exact_chain": 42
+      },
+      "neighbor_calls": 1,
+      "runs": 42,
+      "runs_using_graph": 1,
+      "search_calls": 0,
+      "subgraph_calls": 0
+    }
+  },
+  "scope": "Frozen trace audit excludes later seed, rescue and optional runs. Subsequent arms are separately counted.",
+  "subsequent_arms": {
+    "fidelity_seed/31b/graph_on": {
+      "exact_chains": 0,
+      "get_code_neighbors": 4,
+      "graph_calls": 4,
+      "planned_attempts": 42,
+      "runs_with_graph_calls": 3,
+      "saved_traces": 42,
+      "unknown_chains": 0
+    },
+    "fidelity_seed/e2b/graph_on": {
+      "exact_chains": 0,
+      "get_code_neighbors": 2,
+      "graph_calls": 25,
+      "planned_attempts": 42,
+      "runs_with_graph_calls": 17,
+      "saved_traces": 42,
+      "search_similar_code": 23,
+      "unknown_chains": 0
+    },
+    "fidelity_seed/e4b/graph_on": {
+      "exact_chains": 0,
+      "get_code_neighbors": 7,
+      "get_code_subgraph": 1,
+      "graph_calls": 15,
+      "planned_attempts": 42,
+      "runs_with_graph_calls": 13,
+      "saved_traces": 42,
+      "search_similar_code": 7,
+      "unknown_chains": 0
+    },
+    "optional_e6/e4b/graph_on": {
+      "exact_chains": 0,
+      "get_code_neighbors": 4,
+      "graph_calls": 12,
+      "planned_attempts": 42,
+      "runs_with_graph_calls": 10,
+      "saved_traces": 42,
+      "search_similar_code": 8,
+      "unknown_chains": 0
+    },
+    "optional_g0/31b/graph_off": {
+      "exact_chains": 0,
+      "graph_calls": 0,
+      "planned_attempts": 42,
+      "runs_with_graph_calls": 0,
+      "saved_traces": 42,
+      "unknown_chains": 0
+    },
+    "optional_g0_pilot/31b/graph_off": {
+      "exact_chains": 0,
+      "graph_calls": 0,
+      "planned_attempts": 1,
+      "runs_with_graph_calls": 0,
+      "saved_traces": 1,
+      "unknown_chains": 0
+    },
+    "rescue_extension/31b/graph_on": {
+      "exact_chains": 0,
+      "get_code_neighbors": 3,
+      "graph_calls": 4,
+      "planned_attempts": 18,
+      "runs_with_graph_calls": 4,
+      "saved_traces": 18,
+      "search_similar_code": 1,
+      "unknown_chains": 0
+    },
+    "rescue_extension/e2b/graph_on": {
+      "exact_chains": 0,
+      "graph_calls": 15,
+      "planned_attempts": 18,
+      "runs_with_graph_calls": 12,
+      "saved_traces": 18,
+      "search_similar_code": 15,
+      "unknown_chains": 0
+    },
+    "rescue_extension/e4b/graph_on": {
+      "exact_chains": 0,
+      "get_code_neighbors": 1,
+      "graph_calls": 4,
+      "planned_attempts": 18,
+      "runs_with_graph_calls": 4,
+      "saved_traces": 18,
+      "search_similar_code": 3,
+      "unknown_chains": 0
+    }
+  }
+}

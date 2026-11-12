@@ -1,0 +1,1422 @@
+{
+  "12b_pairwise": {
+    "31b": {
+      "12b_only_context": {
+        "12b": {
+          "agent_steps": {
+            "max": 24,
+            "median": 12.5,
+            "n": 16
+          },
+          "at_tool_cap": 0,
+          "attempts": 16,
+          "first_prompt": {
+            "max": 3512,
+            "median": 2974.5,
+            "n": 16
+          },
+          "model_calls": {
+            "max": 22,
+            "median": 11.5,
+            "n": 16
+          },
+          "near_effective_input_budget": 13,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 19778,
+            "median": 16413.5,
+            "n": 16
+          },
+          "peak_prompt": {
+            "max": 16367,
+            "median": 15793,
+            "n": 16
+          },
+          "saved_traces": 16,
+          "tool_calls": {
+            "max": 22,
+            "median": 11.5,
+            "n": 16
+          }
+        },
+        "31b": {
+          "agent_steps": {
+            "max": 28,
+            "median": 17.5,
+            "n": 16
+          },
+          "at_tool_cap": 0,
+          "attempts": 16,
+          "first_prompt": {
+            "max": 3512,
+            "median": 2974.5,
+            "n": 16
+          },
+          "model_calls": {
+            "max": 28,
+            "median": 17.5,
+            "n": 16
+          },
+          "near_effective_input_budget": 15,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 17211,
+            "median": 16298.5,
+            "n": 16
+          },
+          "peak_prompt": {
+            "max": 16316,
+            "median": 16087.5,
+            "n": 16
+          },
+          "saved_traces": 16,
+          "tool_calls": {
+            "max": 28,
+            "median": 17.5,
+            "n": 16
+          }
+        },
+        "n": 16
+      },
+      "both_context": {
+        "12b": {
+          "agent_steps": {
+            "max": 22,
+            "median": 15.5,
+            "n": 10
+          },
+          "at_tool_cap": 0,
+          "attempts": 10,
+          "first_prompt": {
+            "max": 3132,
+            "median": 2917.5,
+            "n": 10
+          },
+          "model_calls": {
+            "max": 20,
+            "median": 13.5,
+            "n": 10
+          },
+          "near_effective_input_budget": 10,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 16954,
+            "median": 15739.5,
+            "n": 10
+          },
+          "peak_prompt": {
+            "max": 16384,
+            "median": 15682,
+            "n": 10
+          },
+          "saved_traces": 10,
+          "tool_calls": {
+            "max": 20,
+            "median": 13.5,
+            "n": 10
+          }
+        },
+        "31b": {
+          "agent_steps": {
+            "max": 25,
+            "median": 17,
+            "n": 10
+          },
+          "at_tool_cap": 0,
+          "attempts": 10,
+          "first_prompt": {
+            "max": 3132,
+            "median": 2917.5,
+            "n": 10
+          },
+          "model_calls": {
+            "max": 25,
+            "median": 17,
+            "n": 10
+          },
+          "near_effective_input_budget": 8,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 16795,
+            "median": 16269.5,
+            "n": 10
+          },
+          "peak_prompt": {
+            "max": 16377,
+            "median": 15678,
+            "n": 10
+          },
+          "saved_traces": 10,
+          "tool_calls": {
+            "max": 25,
+            "median": 17,
+            "n": 10
+          }
+        },
+        "n": 10
+      },
+      "comparable": 38,
+      "first_prompt_equal": 38
+    },
+    "e2b": {
+      "12b_only_context": {
+        "12b": {
+          "agent_steps": {
+            "max": 22,
+            "median": 14,
+            "n": 15
+          },
+          "at_tool_cap": 0,
+          "attempts": 15,
+          "first_prompt": {
+            "max": 3450,
+            "median": 2953,
+            "n": 15
+          },
+          "model_calls": {
+            "max": 20,
+            "median": 12,
+            "n": 15
+          },
+          "near_effective_input_budget": 15,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 19778,
+            "median": 16266,
+            "n": 15
+          },
+          "peak_prompt": {
+            "max": 16384,
+            "median": 15731,
+            "n": 15
+          },
+          "saved_traces": 15,
+          "tool_calls": {
+            "max": 20,
+            "median": 12,
+            "n": 15
+          }
+        },
+        "e2b": {
+          "agent_steps": {
+            "max": 14,
+            "median": 9,
+            "n": 15
+          },
+          "at_tool_cap": 0,
+          "attempts": 15,
+          "first_prompt": {
+            "max": 3450,
+            "median": 2953,
+            "n": 15
+          },
+          "model_calls": {
+            "max": 13,
+            "median": 8,
+            "n": 15
+          },
+          "near_effective_input_budget": 7,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 28920,
+            "median": 15016,
+            "n": 15
+          },
+          "peak_prompt": {
+            "max": 16381,
+            "median": 13949,
+            "n": 15
+          },
+          "saved_traces": 15,
+          "tool_calls": {
+            "max": 12,
+            "median": 7,
+            "n": 15
+          }
+        },
+        "n": 15
+      },
+      "both_context": {
+        "12b": {
+          "agent_steps": {
+            "max": 24,
+            "median": 15,
+            "n": 11
+          },
+          "at_tool_cap": 0,
+          "attempts": 11,
+          "first_prompt": {
+            "max": 3512,
+            "median": 2969,
+            "n": 11
+          },
+          "model_calls": {
+            "max": 22,
+            "median": 13,
+            "n": 11
+          },
+          "near_effective_input_budget": 8,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 18562,
+            "median": 16410,
+            "n": 11
+          },
+          "peak_prompt": {
+            "max": 16367,
+            "median": 15722,
+            "n": 11
+          },
+          "saved_traces": 11,
+          "tool_calls": {
+            "max": 22,
+            "median": 13,
+            "n": 11
+          }
+        },
+        "e2b": {
+          "agent_steps": {
+            "max": 13,
+            "median": 8,
+            "n": 11
+          },
+          "at_tool_cap": 0,
+          "attempts": 11,
+          "first_prompt": {
+            "max": 3512,
+            "median": 2969,
+            "n": 11
+          },
+          "model_calls": {
+            "max": 11,
+            "median": 7,
+            "n": 11
+          },
+          "near_effective_input_budget": 6,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 1,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 31089,
+            "median": 19582,
+            "n": 11
+          },
+          "peak_prompt": {
+            "max": 16346,
+            "median": 15256,
+            "n": 11
+          },
+          "saved_traces": 11,
+          "tool_calls": {
+            "max": 11,
+            "median": 7,
+            "n": 11
+          }
+        },
+        "n": 11
+      },
+      "comparable": 38,
+      "first_prompt_equal": 38
+    },
+    "e4b": {
+      "12b_only_context": {
+        "12b": {
+          "agent_steps": {
+            "max": 24,
+            "median": 14.5,
+            "n": 20
+          },
+          "at_tool_cap": 0,
+          "attempts": 20,
+          "first_prompt": {
+            "max": 3450,
+            "median": 2975,
+            "n": 20
+          },
+          "model_calls": {
+            "max": 22,
+            "median": 12.5,
+            "n": 20
+          },
+          "near_effective_input_budget": 18,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 19778,
+            "median": 16354,
+            "n": 20
+          },
+          "peak_prompt": {
+            "max": 16384,
+            "median": 15790.5,
+            "n": 20
+          },
+          "saved_traces": 20,
+          "tool_calls": {
+            "max": 22,
+            "median": 12.5,
+            "n": 20
+          }
+        },
+        "e4b": {
+          "agent_steps": {
+            "max": 17,
+            "median": 9,
+            "n": 20
+          },
+          "at_tool_cap": 0,
+          "attempts": 20,
+          "first_prompt": {
+            "max": 3450,
+            "median": 2975,
+            "n": 20
+          },
+          "model_calls": {
+            "max": 16,
+            "median": 8,
+            "n": 20
+          },
+          "near_effective_input_budget": 5,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 17162,
+            "median": 13239.5,
+            "n": 20
+          },
+          "peak_prompt": {
+            "max": 16202,
+            "median": 13117,
+            "n": 20
+          },
+          "saved_traces": 20,
+          "tool_calls": {
+            "max": 15,
+            "median": 7.5,
+            "n": 20
+          }
+        },
+        "n": 20
+      },
+      "both_context": {
+        "12b": {
+          "agent_steps": {
+            "max": 23,
+            "median": 14.5,
+            "n": 6
+          },
+          "at_tool_cap": 0,
+          "attempts": 6,
+          "first_prompt": {
+            "max": 3512,
+            "median": 2820.5,
+            "n": 6
+          },
+          "model_calls": {
+            "max": 21,
+            "median": 12.5,
+            "n": 6
+          },
+          "near_effective_input_budget": 5,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 16810,
+            "median": 16101,
+            "n": 6
+          },
+          "peak_prompt": {
+            "max": 16367,
+            "median": 15726.5,
+            "n": 6
+          },
+          "saved_traces": 6,
+          "tool_calls": {
+            "max": 21,
+            "median": 12.5,
+            "n": 6
+          }
+        },
+        "e4b": {
+          "agent_steps": {
+            "max": 10,
+            "median": 10,
+            "n": 6
+          },
+          "at_tool_cap": 0,
+          "attempts": 6,
+          "first_prompt": {
+            "max": 3512,
+            "median": 2820.5,
+            "n": 6
+          },
+          "model_calls": {
+            "max": 10,
+            "median": 10,
+            "n": 6
+          },
+          "near_effective_input_budget": 6,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 17239,
+            "median": 16041.5,
+            "n": 6
+          },
+          "peak_prompt": {
+            "max": 16031,
+            "median": 15621,
+            "n": 6
+          },
+          "saved_traces": 6,
+          "tool_calls": {
+            "max": 10,
+            "median": 10,
+            "n": 6
+          }
+        },
+        "n": 6
+      },
+      "comparable": 38,
+      "first_prompt_equal": 38
+    }
+  },
+  "limits": {
+    "effective_input": 16384,
+    "max_context": 32768,
+    "max_output": 16384,
+    "near_fraction": 0.9,
+    "tool_calls": 50,
+    "turns": 150
+  },
+  "method": "Agent steps are ATIF entries with source agent. Model calls are entries with positive recorded prompt tokens and are the available proxy for the harness turn counter. Tool calls are trace tool-call entries. Rejected requests without usage are excluded. Peaks refer to recorded requests. Peak actual request is prompt plus actual completion on the same call. Near means at least 90 percent of the specified cap.",
+  "models": {
+    "12b": {
+      "all": {
+        "agent_steps": {
+          "max": 24,
+          "median": 15,
+          "n": 38
+        },
+        "at_tool_cap": 0,
+        "attempts": 42,
+        "first_prompt": {
+          "max": 3544,
+          "median": 2961,
+          "n": 38
+        },
+        "model_calls": {
+          "max": 22,
+          "median": 13,
+          "n": 38
+        },
+        "near_effective_input_budget": 31,
+        "near_full_window_prompt": 0,
+        "near_full_window_prompt_plus_actual_completion": 0,
+        "near_tool_cap": 0,
+        "near_turn_cap": 0,
+        "peak_actual_request": {
+          "max": 29303,
+          "median": 16341.5,
+          "n": 38
+        },
+        "peak_prompt": {
+          "max": 16384,
+          "median": 15712,
+          "n": 38
+        },
+        "saved_traces": 38,
+        "tool_calls": {
+          "max": 22,
+          "median": 13,
+          "n": 38
+        }
+      },
+      "by_outcome": {
+        "context_limit_before_patch": {
+          "agent_steps": {
+            "max": 24,
+            "median": 14.5,
+            "n": 26
+          },
+          "at_tool_cap": 0,
+          "attempts": 26,
+          "first_prompt": {
+            "max": 3512,
+            "median": 2961,
+            "n": 26
+          },
+          "model_calls": {
+            "max": 22,
+            "median": 12.5,
+            "n": 26
+          },
+          "near_effective_input_budget": 23,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 19778,
+            "median": 16354,
+            "n": 26
+          },
+          "peak_prompt": {
+            "max": 16384,
+            "median": 15728.5,
+            "n": 26
+          },
+          "saved_traces": 26,
+          "tool_calls": {
+            "max": 22,
+            "median": 12.5,
+            "n": 26
+          }
+        },
+        "incomplete": {
+          "agent_steps": {
+            "max": 3,
+            "median": 3,
+            "n": 1
+          },
+          "at_tool_cap": 0,
+          "attempts": 5,
+          "first_prompt": {
+            "max": 2671,
+            "median": 2671,
+            "n": 1
+          },
+          "model_calls": {
+            "max": 2,
+            "median": 2,
+            "n": 1
+          },
+          "near_effective_input_budget": 0,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 2909,
+            "median": 2909,
+            "n": 1
+          },
+          "peak_prompt": {
+            "max": 2736,
+            "median": 2736,
+            "n": 1
+          },
+          "saved_traces": 1,
+          "tool_calls": {
+            "max": 1,
+            "median": 1,
+            "n": 1
+          }
+        },
+        "pass": {
+          "agent_steps": {
+            "max": 22,
+            "median": 18,
+            "n": 3
+          },
+          "at_tool_cap": 0,
+          "attempts": 3,
+          "first_prompt": {
+            "max": 3322,
+            "median": 3005,
+            "n": 3
+          },
+          "model_calls": {
+            "max": 19,
+            "median": 16,
+            "n": 3
+          },
+          "near_effective_input_budget": 2,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 16095,
+            "median": 15716,
+            "n": 3
+          },
+          "peak_prompt": {
+            "max": 15535,
+            "median": 15455,
+            "n": 3
+          },
+          "saved_traces": 3,
+          "tool_calls": {
+            "max": 18,
+            "median": 16,
+            "n": 3
+          }
+        },
+        "test_failure": {
+          "agent_steps": {
+            "max": 21,
+            "median": 15,
+            "n": 8
+          },
+          "at_tool_cap": 0,
+          "attempts": 8,
+          "first_prompt": {
+            "max": 3544,
+            "median": 2952.5,
+            "n": 8
+          },
+          "model_calls": {
+            "max": 19,
+            "median": 13,
+            "n": 8
+          },
+          "near_effective_input_budget": 6,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 29303,
+            "median": 16499.5,
+            "n": 8
+          },
+          "peak_prompt": {
+            "max": 16293,
+            "median": 15487.5,
+            "n": 8
+          },
+          "saved_traces": 8,
+          "tool_calls": {
+            "max": 19,
+            "median": 12.5,
+            "n": 8
+          }
+        }
+      },
+      "matched_available": {
+        "agent_steps": {
+          "max": 24,
+          "median": 15,
+          "n": 38
+        },
+        "at_tool_cap": 0,
+        "attempts": 38,
+        "first_prompt": {
+          "max": 3544,
+          "median": 2961,
+          "n": 38
+        },
+        "model_calls": {
+          "max": 22,
+          "median": 13,
+          "n": 38
+        },
+        "near_effective_input_budget": 31,
+        "near_full_window_prompt": 0,
+        "near_full_window_prompt_plus_actual_completion": 0,
+        "near_tool_cap": 0,
+        "near_turn_cap": 0,
+        "peak_actual_request": {
+          "max": 29303,
+          "median": 16341.5,
+          "n": 38
+        },
+        "peak_prompt": {
+          "max": 16384,
+          "median": 15712,
+          "n": 38
+        },
+        "saved_traces": 38,
+        "tool_calls": {
+          "max": 22,
+          "median": 13,
+          "n": 38
+        }
+      }
+    },
+    "31b": {
+      "all": {
+        "agent_steps": {
+          "max": 28,
+          "median": 17.5,
+          "n": 42
+        },
+        "at_tool_cap": 0,
+        "attempts": 42,
+        "first_prompt": {
+          "max": 5719,
+          "median": 2945.5,
+          "n": 42
+        },
+        "model_calls": {
+          "max": 28,
+          "median": 17,
+          "n": 42
+        },
+        "near_effective_input_budget": 35,
+        "near_full_window_prompt": 0,
+        "near_full_window_prompt_plus_actual_completion": 0,
+        "near_tool_cap": 0,
+        "near_turn_cap": 0,
+        "peak_actual_request": {
+          "max": 19111,
+          "median": 16274,
+          "n": 42
+        },
+        "peak_prompt": {
+          "max": 16377,
+          "median": 15980,
+          "n": 42
+        },
+        "saved_traces": 42,
+        "tool_calls": {
+          "max": 28,
+          "median": 17,
+          "n": 42
+        }
+      },
+      "by_outcome": {
+        "context_limit_before_patch": {
+          "agent_steps": {
+            "max": 25,
+            "median": 17,
+            "n": 11
+          },
+          "at_tool_cap": 0,
+          "attempts": 11,
+          "first_prompt": {
+            "max": 3132,
+            "median": 2866,
+            "n": 11
+          },
+          "model_calls": {
+            "max": 25,
+            "median": 17,
+            "n": 11
+          },
+          "near_effective_input_budget": 9,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 16974,
+            "median": 16270,
+            "n": 11
+          },
+          "peak_prompt": {
+            "max": 16377,
+            "median": 15688,
+            "n": 11
+          },
+          "saved_traces": 11,
+          "tool_calls": {
+            "max": 25,
+            "median": 17,
+            "n": 11
+          }
+        },
+        "pass": {
+          "agent_steps": {
+            "max": 28,
+            "median": 18,
+            "n": 12
+          },
+          "at_tool_cap": 0,
+          "attempts": 12,
+          "first_prompt": {
+            "max": 3512,
+            "median": 2945.5,
+            "n": 12
+          },
+          "model_calls": {
+            "max": 28,
+            "median": 18,
+            "n": 12
+          },
+          "near_effective_input_budget": 10,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 17639,
+            "median": 16062,
+            "n": 12
+          },
+          "peak_prompt": {
+            "max": 16358,
+            "median": 15359.5,
+            "n": 12
+          },
+          "saved_traces": 12,
+          "tool_calls": {
+            "max": 28,
+            "median": 18,
+            "n": 12
+          }
+        },
+        "test_failure": {
+          "agent_steps": {
+            "max": 28,
+            "median": 18,
+            "n": 19
+          },
+          "at_tool_cap": 0,
+          "attempts": 19,
+          "first_prompt": {
+            "max": 5719,
+            "median": 2986,
+            "n": 19
+          },
+          "model_calls": {
+            "max": 28,
+            "median": 18,
+            "n": 19
+          },
+          "near_effective_input_budget": 16,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 19111,
+            "median": 16306,
+            "n": 19
+          },
+          "peak_prompt": {
+            "max": 16314,
+            "median": 16185,
+            "n": 19
+          },
+          "saved_traces": 19,
+          "tool_calls": {
+            "max": 28,
+            "median": 18,
+            "n": 19
+          }
+        }
+      },
+      "matched_available": {
+        "agent_steps": {
+          "max": 28,
+          "median": 18,
+          "n": 38
+        },
+        "at_tool_cap": 0,
+        "attempts": 38,
+        "first_prompt": {
+          "max": 3544,
+          "median": 2961,
+          "n": 38
+        },
+        "model_calls": {
+          "max": 28,
+          "median": 17.5,
+          "n": 38
+        },
+        "near_effective_input_budget": 34,
+        "near_full_window_prompt": 0,
+        "near_full_window_prompt_plus_actual_completion": 0,
+        "near_tool_cap": 0,
+        "near_turn_cap": 0,
+        "peak_actual_request": {
+          "max": 19111,
+          "median": 16274,
+          "n": 38
+        },
+        "peak_prompt": {
+          "max": 16377,
+          "median": 15988,
+          "n": 38
+        },
+        "saved_traces": 38,
+        "tool_calls": {
+          "max": 28,
+          "median": 17.5,
+          "n": 38
+        }
+      }
+    },
+    "e2b": {
+      "all": {
+        "agent_steps": {
+          "max": 14,
+          "median": 8,
+          "n": 42
+        },
+        "at_tool_cap": 0,
+        "attempts": 42,
+        "first_prompt": {
+          "max": 5719,
+          "median": 2945.5,
+          "n": 42
+        },
+        "model_calls": {
+          "max": 13,
+          "median": 7,
+          "n": 42
+        },
+        "near_effective_input_budget": 19,
+        "near_full_window_prompt": 0,
+        "near_full_window_prompt_plus_actual_completion": 2,
+        "near_tool_cap": 0,
+        "near_turn_cap": 0,
+        "peak_actual_request": {
+          "max": 31318,
+          "median": 16336.5,
+          "n": 42
+        },
+        "peak_prompt": {
+          "max": 16381,
+          "median": 14215.5,
+          "n": 42
+        },
+        "saved_traces": 42,
+        "tool_calls": {
+          "max": 12,
+          "median": 7,
+          "n": 42
+        }
+      },
+      "by_outcome": {
+        "context_limit_before_patch": {
+          "agent_steps": {
+            "max": 13,
+            "median": 8,
+            "n": 19
+          },
+          "at_tool_cap": 0,
+          "attempts": 19,
+          "first_prompt": {
+            "max": 5719,
+            "median": 2871,
+            "n": 19
+          },
+          "model_calls": {
+            "max": 11,
+            "median": 7,
+            "n": 19
+          },
+          "near_effective_input_budget": 10,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 2,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 31318,
+            "median": 19582,
+            "n": 19
+          },
+          "peak_prompt": {
+            "max": 16346,
+            "median": 14934,
+            "n": 19
+          },
+          "saved_traces": 19,
+          "tool_calls": {
+            "max": 11,
+            "median": 7,
+            "n": 19
+          }
+        },
+        "incomplete_verification": {
+          "agent_steps": {
+            "max": 11,
+            "median": 8.5,
+            "n": 4
+          },
+          "at_tool_cap": 0,
+          "attempts": 4,
+          "first_prompt": {
+            "max": 3450,
+            "median": 2900,
+            "n": 4
+          },
+          "model_calls": {
+            "max": 9,
+            "median": 7.5,
+            "n": 4
+          },
+          "near_effective_input_budget": 1,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 28920,
+            "median": 14794.5,
+            "n": 4
+          },
+          "peak_prompt": {
+            "max": 15295,
+            "median": 12677.5,
+            "n": 4
+          },
+          "saved_traces": 4,
+          "tool_calls": {
+            "max": 7,
+            "median": 7,
+            "n": 4
+          }
+        },
+        "test_failure": {
+          "agent_steps": {
+            "max": 14,
+            "median": 9,
+            "n": 19
+          },
+          "at_tool_cap": 0,
+          "attempts": 19,
+          "first_prompt": {
+            "max": 3544,
+            "median": 2986,
+            "n": 19
+          },
+          "model_calls": {
+            "max": 13,
+            "median": 8,
+            "n": 19
+          },
+          "near_effective_input_budget": 8,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 20132,
+            "median": 13372,
+            "n": 19
+          },
+          "peak_prompt": {
+            "max": 16381,
+            "median": 13159,
+            "n": 19
+          },
+          "saved_traces": 19,
+          "tool_calls": {
+            "max": 12,
+            "median": 7,
+            "n": 19
+          }
+        }
+      },
+      "matched_available": {
+        "agent_steps": {
+          "max": 14,
+          "median": 8.5,
+          "n": 38
+        },
+        "at_tool_cap": 0,
+        "attempts": 38,
+        "first_prompt": {
+          "max": 3544,
+          "median": 2961,
+          "n": 38
+        },
+        "model_calls": {
+          "max": 13,
+          "median": 7.5,
+          "n": 38
+        },
+        "near_effective_input_budget": 17,
+        "near_full_window_prompt": 0,
+        "near_full_window_prompt_plus_actual_completion": 2,
+        "near_tool_cap": 0,
+        "near_turn_cap": 0,
+        "peak_actual_request": {
+          "max": 31318,
+          "median": 16112,
+          "n": 38
+        },
+        "peak_prompt": {
+          "max": 16381,
+          "median": 14215.5,
+          "n": 38
+        },
+        "saved_traces": 38,
+        "tool_calls": {
+          "max": 12,
+          "median": 7,
+          "n": 38
+        }
+      }
+    },
+    "e4b": {
+      "all": {
+        "agent_steps": {
+          "max": 17,
+          "median": 9,
+          "n": 42
+        },
+        "at_tool_cap": 0,
+        "attempts": 42,
+        "first_prompt": {
+          "max": 5719,
+          "median": 2945.5,
+          "n": 42
+        },
+        "model_calls": {
+          "max": 16,
+          "median": 8,
+          "n": 42
+        },
+        "near_effective_input_budget": 17,
+        "near_full_window_prompt": 0,
+        "near_full_window_prompt_plus_actual_completion": 0,
+        "near_tool_cap": 0,
+        "near_turn_cap": 0,
+        "peak_actual_request": {
+          "max": 18227,
+          "median": 14119.5,
+          "n": 42
+        },
+        "peak_prompt": {
+          "max": 16202,
+          "median": 13919.5,
+          "n": 42
+        },
+        "saved_traces": 42,
+        "tool_calls": {
+          "max": 15,
+          "median": 8,
+          "n": 42
+        }
+      },
+      "by_outcome": {
+        "context_limit_before_patch": {
+          "agent_steps": {
+            "max": 11,
+            "median": 10,
+            "n": 9
+          },
+          "at_tool_cap": 0,
+          "attempts": 9,
+          "first_prompt": {
+            "max": 3544,
+            "median": 2871,
+            "n": 9
+          },
+          "model_calls": {
+            "max": 11,
+            "median": 10,
+            "n": 9
+          },
+          "near_effective_input_budget": 9,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 17239,
+            "median": 16151,
+            "n": 9
+          },
+          "peak_prompt": {
+            "max": 16031,
+            "median": 15531,
+            "n": 9
+          },
+          "saved_traces": 9,
+          "tool_calls": {
+            "max": 11,
+            "median": 10,
+            "n": 9
+          }
+        },
+        "incomplete_verification": {
+          "agent_steps": {
+            "max": 17,
+            "median": 12,
+            "n": 5
+          },
+          "at_tool_cap": 0,
+          "attempts": 5,
+          "first_prompt": {
+            "max": 3450,
+            "median": 2969,
+            "n": 5
+          },
+          "model_calls": {
+            "max": 16,
+            "median": 10,
+            "n": 5
+          },
+          "near_effective_input_budget": 1,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 16370,
+            "median": 14033,
+            "n": 5
+          },
+          "peak_prompt": {
+            "max": 16202,
+            "median": 13894,
+            "n": 5
+          },
+          "saved_traces": 5,
+          "tool_calls": {
+            "max": 15,
+            "median": 10,
+            "n": 5
+          }
+        },
+        "pass": {
+          "agent_steps": {
+            "max": 11,
+            "median": 9,
+            "n": 5
+          },
+          "at_tool_cap": 0,
+          "attempts": 5,
+          "first_prompt": {
+            "max": 5719,
+            "median": 3005,
+            "n": 5
+          },
+          "model_calls": {
+            "max": 10,
+            "median": 8,
+            "n": 5
+          },
+          "near_effective_input_budget": 0,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 11827,
+            "median": 10490,
+            "n": 5
+          },
+          "peak_prompt": {
+            "max": 11682,
+            "median": 10252,
+            "n": 5
+          },
+          "saved_traces": 5,
+          "tool_calls": {
+            "max": 9,
+            "median": 7,
+            "n": 5
+          }
+        },
+        "test_failure": {
+          "agent_steps": {
+            "max": 16,
+            "median": 9,
+            "n": 23
+          },
+          "at_tool_cap": 0,
+          "attempts": 23,
+          "first_prompt": {
+            "max": 3313,
+            "median": 2921,
+            "n": 23
+          },
+          "model_calls": {
+            "max": 15,
+            "median": 8,
+            "n": 23
+          },
+          "near_effective_input_budget": 7,
+          "near_full_window_prompt": 0,
+          "near_full_window_prompt_plus_actual_completion": 0,
+          "near_tool_cap": 0,
+          "near_turn_cap": 0,
+          "peak_actual_request": {
+            "max": 18227,
+            "median": 12777,
+            "n": 23
+          },
+          "peak_prompt": {
+            "max": 16115,
+            "median": 12645,
+            "n": 23
+          },
+          "saved_traces": 23,
+          "tool_calls": {
+            "max": 12,
+            "median": 7,
+            "n": 23
+          }
+        }
+      },
+      "matched_available": {
+        "agent_steps": {
+          "max": 17,
+          "median": 9.5,
+          "n": 38
+        },
+        "at_tool_cap": 0,
+        "attempts": 38,
+        "first_prompt": {
+          "max": 3544,
+          "median": 2961,
+          "n": 38
+        },
+        "model_calls": {
+          "max": 16,
+          "median": 9,
+          "n": 38
+        },
+        "near_effective_input_budget": 15,
+        "near_full_window_prompt": 0,
+        "near_full_window_prompt_plus_actual_completion": 0,
+        "near_tool_cap": 0,
+        "near_turn_cap": 0,
+        "peak_actual_request": {
+          "max": 17564,
+          "median": 14119.5,
+          "n": 38
+        },
+        "peak_prompt": {
+          "max": 16202,
+          "median": 13919.5,
+          "n": 38
+        },
+        "saved_traces": 38,
+        "tool_calls": {
+          "max": 15,
+          "median": 8,
+          "n": 38
+        }
+      }
+    }
+  },
+  "primary_seed": 20261109
+}

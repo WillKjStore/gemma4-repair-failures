@@ -1,0 +1,255 @@
+{
+  "method": "Recovery requires a successful edit_file call in a later trace step than an explicit failed edit_file reply. It may edit another file. An identical retry repeats the exact file path, old_string and new_string of an earlier failed call. Later agent steps and recorded completion tokens describe the observed tail. Completion tokens are not window occupancy. Wilson intervals are descriptive and do not adjust for repeated tasks.",
+  "models": {
+    "31b": {
+      "call_failure": {
+        "denominator": 96,
+        "numerator": 46,
+        "rate": 0.4791666666666667,
+        "wilson95": [
+          0.3819741598954924,
+          0.577962322931911
+        ]
+      },
+      "context_after_first_failure": {
+        "completion_tokens_after_failure": {
+          "max": 236,
+          "median": 236,
+          "min": 236,
+          "observations": 1
+        },
+        "completion_tokens_by_identical_retry": {
+          "retry_not_observed": {
+            "max": 236,
+            "median": 236,
+            "min": 236,
+            "observations": 1
+          },
+          "retry_observed": {
+            "max": null,
+            "median": null,
+            "min": null,
+            "observations": 0
+          }
+        },
+        "completion_tokens_on_identical_retry_steps": {
+          "max": null,
+          "median": null,
+          "min": null,
+          "observations": 0
+        },
+        "later_agent_steps": {
+          "max": 2,
+          "median": 2,
+          "min": 2,
+          "observations": 1
+        },
+        "later_edit_calls": {
+          "max": 2,
+          "median": 2,
+          "min": 2,
+          "observations": 1
+        },
+        "peak_recorded_prompt_after_failure": {
+          "max": 16372,
+          "median": 16372,
+          "min": 16372,
+          "observations": 1
+        },
+        "runs": 1,
+        "runs_with_identical_retry": 0,
+        "runs_with_later_edit_call": 1,
+        "runs_with_two_or_more_identical_retries": 0,
+        "runs_with_unavailable_later_edit_arguments": 1
+      },
+      "counts": {
+        "context_limit_edit_calls": 3,
+        "context_limit_failed_edit_calls": 3,
+        "context_limit_runs": 11,
+        "edit_calls": 96,
+        "failed_edit_calls": 46,
+        "failed_runs": 10,
+        "failed_runs_with_any_edit_success": 8,
+        "failed_runs_with_later_success": 6,
+        "runs": 45,
+        "unclassified_edit_calls": 0
+      },
+      "ordered_recovery": {
+        "denominator": 10,
+        "numerator": 6,
+        "rate": 0.6,
+        "wilson95": [
+          0.31267376973365824,
+          0.8318196702937638
+        ]
+      }
+    },
+    "e2b": {
+      "call_failure": {
+        "denominator": 196,
+        "numerator": 119,
+        "rate": 0.6071428571428571,
+        "wilson95": [
+          0.5373396072055139,
+          0.6728269930977999
+        ]
+      },
+      "context_after_first_failure": {
+        "completion_tokens_after_failure": {
+          "max": 18541,
+          "median": 5060.0,
+          "min": 127,
+          "observations": 22
+        },
+        "completion_tokens_by_identical_retry": {
+          "retry_not_observed": {
+            "max": 16519,
+            "median": 2491.0,
+            "min": 127,
+            "observations": 10
+          },
+          "retry_observed": {
+            "max": 18541,
+            "median": 5316.0,
+            "min": 1919,
+            "observations": 12
+          }
+        },
+        "completion_tokens_on_identical_retry_steps": {
+          "max": 8784,
+          "median": 1752,
+          "min": 413,
+          "observations": 11
+        },
+        "later_agent_steps": {
+          "max": 9,
+          "median": 2,
+          "min": 0,
+          "observations": 25
+        },
+        "later_edit_calls": {
+          "max": 3,
+          "median": 1,
+          "min": 0,
+          "observations": 25
+        },
+        "peak_recorded_prompt_after_failure": {
+          "max": 16305,
+          "median": 15345.0,
+          "min": 9774,
+          "observations": 22
+        },
+        "runs": 25,
+        "runs_with_identical_retry": 12,
+        "runs_with_later_edit_call": 18,
+        "runs_with_two_or_more_identical_retries": 6,
+        "runs_with_unavailable_later_edit_arguments": 1
+      },
+      "counts": {
+        "context_limit_edit_calls": 55,
+        "context_limit_failed_edit_calls": 55,
+        "context_limit_runs": 52,
+        "edit_calls": 196,
+        "failed_edit_calls": 119,
+        "failed_runs": 53,
+        "failed_runs_with_any_edit_success": 17,
+        "failed_runs_with_later_success": 9,
+        "runs": 136,
+        "unclassified_edit_calls": 0
+      },
+      "ordered_recovery": {
+        "denominator": 53,
+        "numerator": 9,
+        "rate": 0.16981132075471697,
+        "wilson95": [
+          0.09199945379618975,
+          0.2922528028109605
+        ]
+      }
+    },
+    "e4b": {
+      "call_failure": {
+        "denominator": 288,
+        "numerator": 120,
+        "rate": 0.4166666666666667,
+        "wilson95": [
+          0.36119059327125974,
+          0.474336544668758
+        ]
+      },
+      "context_after_first_failure": {
+        "completion_tokens_after_failure": {
+          "max": 4726,
+          "median": 1718,
+          "min": 124,
+          "observations": 7
+        },
+        "completion_tokens_by_identical_retry": {
+          "retry_not_observed": {
+            "max": 1578,
+            "median": 827,
+            "min": 124,
+            "observations": 3
+          },
+          "retry_observed": {
+            "max": 4726,
+            "median": 2703.0,
+            "min": 1718,
+            "observations": 4
+          }
+        },
+        "completion_tokens_on_identical_retry_steps": {
+          "max": 2925,
+          "median": 804.0,
+          "min": 376,
+          "observations": 4
+        },
+        "later_agent_steps": {
+          "max": 8,
+          "median": 4,
+          "min": 0,
+          "observations": 9
+        },
+        "later_edit_calls": {
+          "max": 4,
+          "median": 1,
+          "min": 0,
+          "observations": 9
+        },
+        "peak_recorded_prompt_after_failure": {
+          "max": 16264,
+          "median": 15869,
+          "min": 14937,
+          "observations": 7
+        },
+        "runs": 9,
+        "runs_with_identical_retry": 4,
+        "runs_with_later_edit_call": 5,
+        "runs_with_two_or_more_identical_retries": 1,
+        "runs_with_unavailable_later_edit_arguments": 0
+      },
+      "counts": {
+        "context_limit_edit_calls": 21,
+        "context_limit_failed_edit_calls": 21,
+        "context_limit_runs": 39,
+        "edit_calls": 288,
+        "failed_edit_calls": 120,
+        "failed_runs": 48,
+        "failed_runs_with_any_edit_success": 24,
+        "failed_runs_with_later_success": 16,
+        "runs": 174,
+        "unclassified_edit_calls": 0
+      },
+      "ordered_recovery": {
+        "denominator": 48,
+        "numerator": 16,
+        "rate": 0.3333333333333333,
+        "wilson95": [
+          0.21676780694818568,
+          0.4745989029405201
+        ]
+      }
+    }
+  },
+  "saved_traces": 355
+}

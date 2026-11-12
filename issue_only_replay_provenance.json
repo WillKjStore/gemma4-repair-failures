@@ -1,0 +1,14 @@
+{
+  "approval_reported_utc": "2026-11-11T07:50Z",
+  "calls_by_tool": {
+    "get_code_neighbors": 69,
+    "get_code_subgraph": 123,
+    "search_similar_code": 104
+  },
+  "current_policy_status": "approved as written",
+  "issues": 33,
+  "policy_at_replay": "pending policy approval",
+  "query_policy_markdown_sha256": "f1edb5cda051e79dd43016cc169ca172baa1d226c97ea3e2f8614fae8bcc8096",
+  "query_policy_sha256": "50e0f5a52eba5991336d6b489ff405b2fb61f9dc8f331bdd1d9f6971284d39db",
+  "tool_call_count": 296
+}

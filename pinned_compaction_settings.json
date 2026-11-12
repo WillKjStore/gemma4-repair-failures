@@ -1,0 +1,31 @@
+{
+  "adk_compaction_enabled": false,
+  "agent_runner": {
+    "behavior": "Only forwards a non-None setting to the ADK App.",
+    "file": "swegemma/harness/agent_runner.py",
+    "lines": [
+      694,
+      695
+    ],
+    "sha256": "4d7eccabd203c26f7c39e882684d2fd851f383f6a5c76c4a75b0e559cd5d6a18"
+  },
+  "caller_supplies_override": false,
+  "checked_callers": [
+    "e4_runner.py",
+    "e4_warm_runner.py",
+    "e4_e2b_runner.py",
+    "e4_e2b_warm_runner.py",
+    "e4_runner_g0.py",
+    "e4_warm_runner_g0.py",
+    "wed_plan_20261111/runner-31b-cold.py",
+    "wed_plan_20261111/runner-31b-warm.py",
+    "wed_plan_20261111/runner-12b-override-cold.py",
+    "wed_plan_20261111/runner-12b-override-warm.py"
+  ],
+  "swegemma_config": {
+    "events_compaction_config": null,
+    "file": "swegemma/config.py",
+    "line": 118,
+    "sha256": "0cf65965d713a883eaf779652979e281f1fbd3d24707f1bd7e91e054c5069f0b"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "audit": {
+    "allocated_gpu_seconds": 19608,
+    "coverage": {
+      "agent_manifests_checked": 85,
+      "all_tool_calls": 1242,
+      "direct_observation_steps": 1242,
+      "manifests_with_nonempty_hints_text": 0,
+      "manifests_with_protected_fields": 0,
+      "manifests_with_unexpected_fields": 0,
+      "read_file_calls": 455,
+      "read_tools_without_argument_field": 0,
+      "run_command_calls": 437,
+      "traces_scanned": 85
+    },
+    "leakage_hits": {
+      "repository_test_path:read_file:error": 6,
+      "repository_test_path:read_file:success": 24,
+      "repository_test_path:run_command:error": 36,
+      "repository_test_path:run_command:success": 43
+    },
+    "membership_sha256": "447d4448597128b0231604b7b5cfdd10051620de7b850702339408d91aa2aa05",
+    "scheduler": {
+      "12786304": [
+        "COMPLETED",
+        608,
+        "0:0"
+      ],
+      "12786305": [
+        "COMPLETED",
+        1420,
+        "0:0"
+      ],
+      "12786306": [
+        "COMPLETED",
+        1051,
+        "0:0"
+      ],
+      "12786307": [
+        "COMPLETED",
+        1073,
+        "0:0"
+      ],
+      "12786308": [
+        "COMPLETED",
+        1081,
+        "0:0"
+      ],
+      "12786309": [
+        "COMPLETED",
+        1080,
+        "0:0"
+      ],
+      "12786310": [
+        "COMPLETED",
+        1057,
+        "0:0"
+      ],
+      "12786311": [
+        "COMPLETED",
+        1085,
+        "0:0"
+      ],
+      "12786312": [
+        "COMPLETED",
+        919,
+        "0:0"
+      ],
+      "12786313": [
+        "COMPLETED",
+        1105,
+        "0:0"
+      ],
+      "12786314": [
+        "COMPLETED",
+        1045,
+        "0:0"
+      ],
+      "12786315": [
+        "COMPLETED",
+        1405,
+        "0:0"
+      ],
+      "12786316": [
+        "COMPLETED",
+        1227,
+        "0:0"
+      ],
+      "12786317": [
+        "COMPLETED",
+        1228,
+        "0:0"
+      ],
+      "12786318": [
+        "COMPLETED",
+        827,
+        "0:0"
+      ],
+      "12786319": [
+        "COMPLETED",
+        826,
+        "0:0"
+      ],
+      "12786320": [
+        "COMPLETED",
+        875,
+        "0:0"
+      ],
+      "12786321": [
+        "COMPLETED",
+        848,
+        "0:0"
+      ],
+      "12786322": [
+        "COMPLETED",
+        848,
+        "0:0"
+      ]
+    },
+    "settings_integrity": {
+      "match": 85
+    }
+  },
+  "e6_prompt_addition": "When you find relevant source, use write_file to keep a short working note in .gemma-e6-notes.md with the file, function and why it matters. If the conversation context resets or is summarized, read the note before continuing. Update it only as needed. Remove .gemma-e6-notes.md with run_command before calling submit_patch.",
+  "e6_scope": "Exploratory prompt-only notes arm after the original gate did not pass.",
+  "g0_controls": {
+    "empty": {
+      "failures": 3,
+      "identities_and_outcomes_equal": true,
+      "tests": 174
+    },
+    "reference": {
+      "failures": 0,
+      "identities_and_outcomes_equal": true,
+      "tests": 174
+    }
+  },
+  "notes_patch_outcomes": {
+    "test_failure": 2
+  },
+  "outcomes": {
+    "optional_e6": {
+      "context_limit_before_patch": 11,
+      "incomplete_verification": 4,
+      "pass": 3,
+      "patch_contains_notes_file": 2,
+      "runs_with_note_read_after_compaction": 0,
+      "runs_with_successful_note_read": 0,
+      "runs_with_successful_note_write": 3,
+      "saved_traces": 42,
+      "test_failure": 24,
+      "traces_with_recorded_compaction": 0
+    },
+    "optional_g0": {
+      "context_limit_before_patch": 8,
+      "pass": 8,
+      "patch_contains_notes_file": 0,
+      "runs_with_note_read_after_compaction": 0,
+      "runs_with_successful_note_read": 0,
+      "runs_with_successful_note_write": 0,
+      "saved_traces": 42,
+      "test_failure": 26,
+      "traces_with_recorded_compaction": 0
+    },
+    "optional_g0_pilot": {
+      "pass": 1,
+      "patch_contains_notes_file": 0,
+      "runs_with_note_read_after_compaction": 0,
+      "runs_with_successful_note_read": 0,
+      "runs_with_successful_note_write": 0,
+      "saved_traces": 1,
+      "traces_with_recorded_compaction": 0
+    }
+  },
+  "paired": {
+    "optional_e6": {
+      "baseline_only_pass": 2,
+      "baseline_pass": 5,
+      "classifiable_pairs": 36,
+      "optional_only_pass": 0,
+      "optional_pass": 3,
+      "pass_in_both": 3,
+      "planned_pairs": 42
+    },
+    "optional_g0": {
+      "baseline_only_pass": 5,
+      "baseline_pass": 12,
+      "classifiable_pairs": 42,
+      "optional_only_pass": 1,
+      "optional_pass": 8,
+      "pass_in_both": 7,
+      "planned_pairs": 42
+    }
+  },
+  "stages": {
+    "optional_e6/provisional_exact": {
+      "baseline_seen_and_edited:no": 1,
+      "baseline_seen_and_edited:unknown": 1,
+      "baseline_seen_and_edited:yes": 1,
+      "baseline_target_edited:no": 1,
+      "baseline_target_edited:unknown": 1,
+      "baseline_target_edited:yes": 1,
+      "baseline_target_seen:yes": 3,
+      "optional_seen_and_edited:no": 1,
+      "optional_seen_and_edited:unknown": 1,
+      "optional_seen_and_edited:yes": 1,
+      "optional_target_edited:no": 1,
+      "optional_target_edited:unknown": 1,
+      "optional_target_edited:yes": 1,
+      "optional_target_seen:yes": 3,
+      "planned_pairs": 3
+    },
+    "optional_e6/provisional_partial": {
+      "baseline_seen_and_edited:unknown": 1,
+      "baseline_target_edited:unknown": 2,
+      "baseline_target_seen:unknown": 1,
+      "baseline_target_seen:yes": 1,
+      "optional_seen_and_edited:no": 1,
+      "optional_target_edited:no": 1,
+      "optional_target_edited:unknown": 1,
+      "optional_target_seen:unknown": 1,
+      "optional_target_seen:yes": 1,
+      "planned_pairs": 2
+    },
+    "optional_e6/reviewed_absent": {
+      "baseline_target_edited:unknown": 1,
+      "baseline_target_seen:unknown": 1,
+      "optional_target_edited:unknown": 1,
+      "optional_target_seen:unknown": 1,
+      "planned_pairs": 1
+    },
+    "optional_e6/reviewed_ambiguous": {
+      "baseline_target_edited:unknown": 1,
+      "baseline_target_seen:unknown": 1,
+      "optional_target_edited:unknown": 1,
+      "optional_target_seen:unknown": 1,
+      "planned_pairs": 1
+    },
+    "optional_e6/reviewed_confirmed": {
+      "baseline_seen_and_edited:unknown": 1,
+      "baseline_seen_and_edited:yes": 6,
+      "baseline_target_edited:no": 4,
+      "baseline_target_edited:unknown": 3,
+      "baseline_target_edited:yes": 6,
+      "baseline_target_seen:unknown": 6,
+      "baseline_target_seen:yes": 7,
+      "optional_seen_and_edited:no": 2,
+      "optional_seen_and_edited:unknown": 2,
+      "optional_seen_and_edited:yes": 3,
+      "optional_target_edited:no": 8,
+      "optional_target_edited:unknown": 2,
+      "optional_target_edited:yes": 3,
+      "optional_target_seen:unknown": 6,
+      "optional_target_seen:yes": 7,
+      "planned_pairs": 13
+    },
+    "optional_e6/unknown": {
+      "baseline_target_edited:unknown": 22,
+      "baseline_target_seen:unknown": 22,
+      "optional_target_edited:no": 4,
+      "optional_target_edited:unknown": 18,
+      "optional_target_seen:unknown": 22,
+      "planned_pairs": 22
+    },
+    "optional_g0/provisional_exact": {
+      "baseline_seen_and_edited:unknown": 2,
+      "baseline_seen_and_edited:yes": 1,
+      "baseline_target_edited:unknown": 2,
+      "baseline_target_edited:yes": 1,
+      "baseline_target_seen:yes": 3,
+      "optional_seen_and_edited:unknown": 2,
+      "optional_seen_and_edited:yes": 1,
+      "optional_target_edited:unknown": 2,
+      "optional_target_edited:yes": 1,
+      "optional_target_seen:yes": 3,
+      "planned_pairs": 3
+    },
+    "optional_g0/provisional_partial": {
+      "baseline_seen_and_edited:unknown": 2,
+      "baseline_target_edited:unknown": 2,
+      "baseline_target_seen:yes": 2,
+      "optional_seen_and_edited:unknown": 1,
+      "optional_seen_and_edited:yes": 1,
+      "optional_target_edited:unknown": 1,
+      "optional_target_edited:yes": 1,
+      "optional_target_seen:yes": 2,
+      "planned_pairs": 2
+    },
+    "optional_g0/reviewed_absent": {
+      "baseline_target_edited:unknown": 1,
+      "baseline_target_seen:unknown": 1,
+      "optional_target_edited:unknown": 1,
+      "optional_target_seen:unknown": 1,
+      "planned_pairs": 1
+    },
+    "optional_g0/reviewed_ambiguous": {
+      "baseline_target_edited:unknown": 1,
+      "baseline_target_seen:unknown": 1,
+      "optional_target_edited:unknown": 1,
+      "optional_target_seen:unknown": 1,
+      "planned_pairs": 1
+    },
+    "optional_g0/reviewed_confirmed": {
+      "baseline_seen_and_edited:no": 3,
+      "baseline_seen_and_edited:unknown": 4,
+      "baseline_seen_and_edited:yes": 4,
+      "baseline_target_edited:no": 5,
+      "baseline_target_edited:unknown": 4,
+      "baseline_target_edited:yes": 4,
+      "baseline_target_seen:unknown": 2,
+      "baseline_target_seen:yes": 11,
+      "optional_seen_and_edited:no": 7,
+      "optional_seen_and_edited:unknown": 1,
+      "optional_seen_and_edited:yes": 4,
+      "optional_target_edited:no": 8,
+      "optional_target_edited:unknown": 1,
+      "optional_target_edited:yes": 4,
+      "optional_target_seen:unknown": 1,
+      "optional_target_seen:yes": 12,
+      "planned_pairs": 13
+    },
+    "optional_g0/unknown": {
+      "baseline_target_edited:unknown": 22,
+      "baseline_target_seen:unknown": 22,
+      "optional_target_edited:no": 5,
+      "optional_target_edited:unknown": 17,
+      "optional_target_seen:unknown": 22,
+      "planned_pairs": 22
+    }
+  }
+}

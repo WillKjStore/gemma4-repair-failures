@@ -1,0 +1,86 @@
+{
+  "cohort": "42 canonical graph-on tasks per model, seed 20261109, matched execution modes",
+  "models": {
+    "31b": {
+      "call_failure": {
+        "denominator": 87,
+        "numerator": 38,
+        "rate": 0.4367816091954023,
+        "wilson95": [
+          0.337425457881576,
+          0.5414844567895197
+        ]
+      },
+      "counts": {
+        "edit_calls": 87,
+        "failed_calls": 38,
+        "failed_runs": 9,
+        "recovered_runs": 6,
+        "runs": 42
+      },
+      "ordered_recovery": {
+        "denominator": 9,
+        "numerator": 6,
+        "rate": 0.6666666666666666,
+        "wilson95": [
+          0.3542021355803963,
+          0.879416181613089
+        ]
+      }
+    },
+    "e2b": {
+      "call_failure": {
+        "denominator": 67,
+        "numerator": 46,
+        "rate": 0.6865671641791045,
+        "wilson95": [
+          0.567954176839354,
+          0.7849465174176228
+        ]
+      },
+      "counts": {
+        "edit_calls": 67,
+        "failed_calls": 46,
+        "failed_runs": 22,
+        "recovered_runs": 3,
+        "runs": 42
+      },
+      "ordered_recovery": {
+        "denominator": 22,
+        "numerator": 3,
+        "rate": 0.13636363636363635,
+        "wilson95": [
+          0.04749003714055253,
+          0.33334987166571717
+        ]
+      }
+    },
+    "e4b": {
+      "call_failure": {
+        "denominator": 68,
+        "numerator": 26,
+        "rate": 0.38235294117647056,
+        "wilson95": [
+          0.27609449782105433,
+          0.5011928754777858
+        ]
+      },
+      "counts": {
+        "edit_calls": 68,
+        "failed_calls": 26,
+        "failed_runs": 12,
+        "recovered_runs": 4,
+        "runs": 42
+      },
+      "ordered_recovery": {
+        "denominator": 12,
+        "numerator": 4,
+        "rate": 0.3333333333333333,
+        "wilson95": [
+          0.13812009109121315,
+          0.6093779111272004
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "groups": {
+    "all_attempts": {
+      "12b": {
+        "attempted_runs": 42,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 455,
+            "median_of_run_medians": 502.5,
+            "pooled_median": 486,
+            "runs_with_metric": 38
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 455,
+            "median_of_run_medians": 108.5,
+            "pooled_median": 92,
+            "runs_with_metric": 38
+          },
+          "prompt_delta": {
+            "call_intervals": 455,
+            "median_of_run_medians": 999.5,
+            "pooled_median": 799,
+            "runs_with_metric": 38
+          }
+        },
+        "median_net_growth_per_call": 1020.75,
+        "negative_prompt_deltas": 1
+      },
+      "31b": {
+        "attempted_runs": 42,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 711,
+            "median_of_run_medians": 184,
+            "pooled_median": 170,
+            "runs_with_metric": 42
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 711,
+            "median_of_run_medians": 88.75,
+            "pooled_median": 87,
+            "runs_with_metric": 42
+          },
+          "prompt_delta": {
+            "call_intervals": 711,
+            "median_of_run_medians": 501.5,
+            "pooled_median": 469,
+            "runs_with_metric": 42
+          }
+        },
+        "median_net_growth_per_call": 755.7019607843138,
+        "negative_prompt_deltas": 0
+      },
+      "e2b": {
+        "attempted_runs": 42,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 281,
+            "median_of_run_medians": 905,
+            "pooled_median": 1253,
+            "runs_with_metric": 42
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 281,
+            "median_of_run_medians": 349.5,
+            "pooled_median": 301,
+            "runs_with_metric": 42
+          },
+          "prompt_delta": {
+            "call_intervals": 281,
+            "median_of_run_medians": 1631,
+            "pooled_median": 1605,
+            "runs_with_metric": 42
+          }
+        },
+        "median_net_growth_per_call": 1473.4222222222222,
+        "negative_prompt_deltas": 0
+      },
+      "e4b": {
+        "attempted_runs": 42,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 327,
+            "median_of_run_medians": 280,
+            "pooled_median": 412,
+            "runs_with_metric": 42
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 327,
+            "median_of_run_medians": 254,
+            "pooled_median": 256,
+            "runs_with_metric": 42
+          },
+          "prompt_delta": {
+            "call_intervals": 327,
+            "median_of_run_medians": 1320,
+            "pooled_median": 1428,
+            "runs_with_metric": 42
+          }
+        },
+        "median_net_growth_per_call": 1257.55,
+        "negative_prompt_deltas": 1
+      }
+    },
+    "both_12b_and_31b_context": {
+      "12b": {
+        "attempted_runs": 10,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 134,
+            "median_of_run_medians": 575.5,
+            "pooled_median": 599.5,
+            "runs_with_metric": 10
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 134,
+            "median_of_run_medians": 71,
+            "pooled_median": 70,
+            "runs_with_metric": 10
+          },
+          "prompt_delta": {
+            "call_intervals": 134,
+            "median_of_run_medians": 973.25,
+            "pooled_median": 845.5,
+            "runs_with_metric": 10
+          }
+        },
+        "median_net_growth_per_call": 1007.6442307692307,
+        "negative_prompt_deltas": 0
+      },
+      "31b": {
+        "attempted_runs": 10,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 159,
+            "median_of_run_medians": 352.5,
+            "pooled_median": 300,
+            "runs_with_metric": 10
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 159,
+            "median_of_run_medians": 74.75,
+            "pooled_median": 70,
+            "runs_with_metric": 10
+          },
+          "prompt_delta": {
+            "call_intervals": 159,
+            "median_of_run_medians": 642,
+            "pooled_median": 517,
+            "runs_with_metric": 10
+          }
+        },
+        "median_net_growth_per_call": 825.125,
+        "negative_prompt_deltas": 0
+      },
+      "e2b": {
+        "attempted_runs": 10,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 75,
+            "median_of_run_medians": 1029.5,
+            "pooled_median": 1032,
+            "runs_with_metric": 10
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 75,
+            "median_of_run_medians": 241,
+            "pooled_median": 237,
+            "runs_with_metric": 10
+          },
+          "prompt_delta": {
+            "call_intervals": 75,
+            "median_of_run_medians": 1492.5,
+            "pooled_median": 1508,
+            "runs_with_metric": 10
+          }
+        },
+        "median_net_growth_per_call": 1254.15,
+        "negative_prompt_deltas": 0
+      },
+      "e4b": {
+        "attempted_runs": 10,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 89,
+            "median_of_run_medians": 1136,
+            "pooled_median": 1262,
+            "runs_with_metric": 10
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 89,
+            "median_of_run_medians": 260.5,
+            "pooled_median": 273,
+            "runs_with_metric": 10
+          },
+          "prompt_delta": {
+            "call_intervals": 89,
+            "median_of_run_medians": 1553.5,
+            "pooled_median": 1474,
+            "runs_with_metric": 10
+          }
+        },
+        "median_net_growth_per_call": 1406.5,
+        "negative_prompt_deltas": 0
+      }
+    },
+    "common_prompt_intervals": {
+      "12b": {
+        "attempted_runs": 38,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 455,
+            "median_of_run_medians": 502.5,
+            "pooled_median": 486,
+            "runs_with_metric": 38
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 455,
+            "median_of_run_medians": 108.5,
+            "pooled_median": 92,
+            "runs_with_metric": 38
+          },
+          "prompt_delta": {
+            "call_intervals": 455,
+            "median_of_run_medians": 999.5,
+            "pooled_median": 799,
+            "runs_with_metric": 38
+          }
+        },
+        "median_net_growth_per_call": 1020.75,
+        "negative_prompt_deltas": 1
+      },
+      "31b": {
+        "attempted_runs": 38,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 651,
+            "median_of_run_medians": 182.5,
+            "pooled_median": 174,
+            "runs_with_metric": 38
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 651,
+            "median_of_run_medians": 88.75,
+            "pooled_median": 85,
+            "runs_with_metric": 38
+          },
+          "prompt_delta": {
+            "call_intervals": 651,
+            "median_of_run_medians": 482.5,
+            "pooled_median": 477,
+            "runs_with_metric": 38
+          }
+        },
+        "median_net_growth_per_call": 754.7352941176471,
+        "negative_prompt_deltas": 0
+      },
+      "e2b": {
+        "attempted_runs": 38,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 260,
+            "median_of_run_medians": 881.5,
+            "pooled_median": 1032,
+            "runs_with_metric": 38
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 260,
+            "median_of_run_medians": 349.5,
+            "pooled_median": 300.5,
+            "runs_with_metric": 38
+          },
+          "prompt_delta": {
+            "call_intervals": 260,
+            "median_of_run_medians": 1564.25,
+            "pooled_median": 1585,
+            "runs_with_metric": 38
+          }
+        },
+        "median_net_growth_per_call": 1411.6555555555556,
+        "negative_prompt_deltas": 0
+      },
+      "e4b": {
+        "attempted_runs": 38,
+        "fields": {
+          "estimated_tool_reply_tokens": {
+            "call_intervals": 301,
+            "median_of_run_medians": 280,
+            "pooled_median": 342,
+            "runs_with_metric": 38
+          },
+          "preceding_completion_tokens": {
+            "call_intervals": 301,
+            "median_of_run_medians": 250.75,
+            "pooled_median": 251,
+            "runs_with_metric": 38
+          },
+          "prompt_delta": {
+            "call_intervals": 301,
+            "median_of_run_medians": 1320,
+            "pooled_median": 1414,
+            "runs_with_metric": 38
+          }
+        },
+        "median_net_growth_per_call": 1257.55,
+        "negative_prompt_deltas": 1
+      }
+    }
+  },
+  "method": "Per run, compare adjacent recorded positive prompt-token counts. Take the median within each run and the median across runs. Also show pooled call medians. Preceding completion tokens are the recorded model output. Tool reply text is tokenized separately using the shared checkpoint tokenizer, excluding role and wrapper overhead. Medians do not add up, and this is not exact request reconstruction. Rejected requests have no metrics.",
+  "outcomes": {
+    "12b": {
+      "context_limit_before_patch": 26,
+      "incomplete": 5,
+      "pass": 3,
+      "test_failure": 8
+    },
+    "31b": {
+      "context_limit_before_patch": 11,
+      "pass": 12,
+      "test_failure": 19
+    },
+    "e2b": {
+      "context_limit_before_patch": 19,
+      "incomplete_verification": 4,
+      "test_failure": 19
+    },
+    "e4b": {
+      "context_limit_before_patch": 9,
+      "incomplete_verification": 5,
+      "pass": 5,
+      "test_failure": 23
+    }
+  },
+  "scope": {
+    "modes": {
+      "cold": 12,
+      "warm": 30
+    },
+    "paired_tasks": 42,
+    "seed": 20261109
+  }
+}
